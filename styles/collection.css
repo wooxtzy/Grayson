@@ -1,0 +1,46 @@
+.collection {
+    background: url(../img/collectionBG.png) no-repeat center/cover;
+    height: 404px;
+}
+
+.collection__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.collection__title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 67px;
+    color: #fff;
+}
+
+.collection__wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.collection__btn {
+    max-width: 190px;
+    width: 100%;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 24px 42px;
+    outline: none;
+    border: none;
+    background: #fff;
+    margin-top: 22px;
+    transition: 0.3s linear all;
+    cursor: pointer;
+}
+
+.collection__btn:hover{
+    background: #41A28E;
+    color: #fff;
+}
